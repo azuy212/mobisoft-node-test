@@ -12,7 +12,7 @@
   cd mobisoft-node-test/
   ```
 
-# Start Backend
+## Start Backend
 
 - Install Backend dependencies
 
@@ -26,7 +26,7 @@
   yarn start
   ```
 
-# Start Frontend
+## Start Frontend
 
 - Change Directory to client
 
