@@ -49,7 +49,7 @@ router.get('/', verifyJWT, async (req, res) => {
   }
 });
 
-router.get('/google', verifyJWT, async (req, res) => {
+router.get('/google', async (req, res) => {
   const { search, page, size } = req.query;
 
   if (!search) {
