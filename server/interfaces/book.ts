@@ -5,6 +5,7 @@ export interface IBook {
   author: string;
   categories: string[];
   publisher: string;
+  thumbnail?: string;
 }
 
 export interface IBookDocument extends IBook, Document {}

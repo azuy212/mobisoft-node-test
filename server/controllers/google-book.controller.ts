@@ -17,6 +17,7 @@ async function searchBooks(search: string = '', pagination?: Partial<Pagination>
     author: item.volumeInfo.authors?.join(', ') || '',
     publisher: item.volumeInfo.publisher || '',
     categories: item.volumeInfo.categories || [],
+    thumbnail: item.volumeInfo.imageLinks.thumbnail,
   }));
 
   return generatePageObject(books, page, size, data.totalItems);
